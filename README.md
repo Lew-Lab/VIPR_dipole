@@ -1,3 +1,26 @@
+
+TW modified the VIPR algorithm for our dipole orientation model based on VIPR paper.
+Ferdman, Boris, et al. "VIPR: vectorial implementation of phase retrieval for fast and accurate microscopic pixel-wise pupil estimation." Optics Express 28.7 (2020): 10179-10198.
+
+# Main_dipole.m
+This is the main running code mode.
+
+# VIPR_user_input_ dipole.m
+This is place where you set your microscope parameters and prepare data for phase retrieval.
+The initial state is data for bead data captured using pixOL_com with NPF focused on the beads.
+utils
+In the folder, all functions with a name ended with ‘2’ are TW modified function to fit for isotropic dipole model.
+
+# Main_origin.m & VIPR_user_input.m
+Original VIPR code
+
+
+
+
+
+
+
+# below is the original Readme file of VIPR
 # VIPR - Vectorial Phase Retrieval for microscopy
 
 # Overview: 
