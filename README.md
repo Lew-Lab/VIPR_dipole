@@ -1,3 +1,5 @@
+# VIRP dipole
+phase retrieval algorithm for dipole model
 
 TW modified the VIPR algorithm for our dipole orientation model based on VIPR paper.
 Ferdman, Boris, et al. "VIPR: vectorial implementation of phase retrieval for fast and accurate microscopic pixel-wise pupil estimation." Optics Express 28.7 (2020): 10179-10198.
