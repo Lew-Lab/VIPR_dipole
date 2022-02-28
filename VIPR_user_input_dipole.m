@@ -42,6 +42,7 @@ IS.p_vec = [0,0,0]; % incoherent
 %% load data
 % two example datas: the first one is captured for all NFP focused at
 % beads; the second one is capture for NFP axially scanning the beads
+exampleData = 1;
 if exampleData == 1
 beadsDatafile  = [pwd '\TW_pixOL_com_beads_data\20220214_combine_beads_data_152_to_data_164.mat']; % note the beads data: y channel is same as images captured on the camera, that is there is no need to flip the y channel image
 load(beadsDatafile);
