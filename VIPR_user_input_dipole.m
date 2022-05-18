@@ -57,7 +57,7 @@ xy = zeros(size(IMG_T,3),2);
 z_stack_pos = zeros(size(SM1,3),1)-90*10^-9; %position of NFP
 z_pos = zeros(size(SM1,3),1)+IS.z_emit;  % position of the emitter
 
-elseif exmapleData ==2
+elseif exampleData ==2
 beadsDatafile  = [pwd '\TW_pixOL_com_beads_data\20210602_data12_beads_y_channel_unflipped.mat'];
 
 load(beadsDatafile);
